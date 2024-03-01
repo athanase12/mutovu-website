@@ -89,22 +89,20 @@ span{
 #mnbut{
     width: 150px;
     height: 70px;
-    border-color: white;
+    border-color: red;
     border-style: solid;
     border-radius: 15px;
     font-size: 1.5rem;
-    color: white;
+    color: red;
     transition: 0.5s;
-    background: linear-gradient(red,rgb(236, 17, 17),rgb(147, 4, 4));
+    background: transparent;
 }
 #mnbut:hover{
-    width: 145px;
-    height: 65px;
     border-color: rgba(177, 15, 15, 0.291);
     border-style: solid;
     border-radius: 17px;
     font-size: 1.6rem;
-    color: rgb(196, 9, 9);
+    color: white;
     background: linear-gradient(rgb(245, 89, 89),rgb(241, 71, 71),rgb(255, 63, 63));
 }
   
